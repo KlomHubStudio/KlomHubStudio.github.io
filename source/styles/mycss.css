@@ -1,101 +1,85 @@
-@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
-
-
-body {
-    font-family: Michroma, serif;
-    background: linear-gradient(90deg, #00009c 0%, #000000 100%);
+* {
+	margin: 0;
 }
 
-p {
-    color: aquamarine;
+.mypanel1 {
+		padding-left: 30px;
 }
 
-.nav-link {
-    color:aquamarine;
+.myroadmap {
+	padding: 30px;
 }
 
-.navbar-nav .nav-link.active {
-    color:rgb(143, 142, 142);
+.spec-max1 {
+	display: flex !important;
+}
+
+
+.spec-max1 h2 {
+padding-right: 40px;
+}
+
+.flag {
+	display: flex;
+	border-style: solid;
+    border-width: 0.5px;
+width: 39em;
+}
+
+.simvolika {
+	display: flex;
+	  justify-content: right;
+	margin-left: 100px;
+}
+
+.myp {
+	font-style: italic;
+}
+
+
+
+.myrules {
+		padding: 30px !important;
+		margin: 30px !important;
 
 }
 
-.navbar-brand img {
-    width: 40px;
-}
-
-.navbar-toggler {
-    background-color: rgb(143, 142, 142);
-}
-
-.sidebar {
-    color:aquamarine;
-    background: linear-gradient(270deg, #00009c 0%, #000000 100%);
 
 
-}
 
-.card {
-    background: linear-gradient(270deg, #00009c 0%, #000000 100%);
-    color: aquamarine;
-}
-
-.card a {
-    text-decoration: none;
-    color: aquamarine;
-}
-
-.slide-text,
-.footer-text {
-    color: aquamarine;
-    margin: auto auto;
-}
-
-footer,
-.btn-outline-primary {
-    background: linear-gradient(270deg, #00009c 0%, #000000 100%);
-
-}
-.media-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.call-anim {
-    animation: call 2s ease 0s infinite normal forwards;
-}
-
-@keyframes call {
-	0%,
-	100% {
-		transform: translateX(0%);
-		transform-origin: 50% 50%;
+	
+	.text-ok {
+ background: linear-gradient(90deg, #88cfe8 0%, #f7f5f5 100%);
+ padding: 30px;
 	}
-
-	15% {
-		transform: translateX(-30px) rotate(-6deg);
+	
+	.head-ok {
+	 background: linear-gradient(90deg, #88cfe8 0%, #f7f5f5 100%);
 	}
-
-	30% {
-		transform: translateX(15px) rotate(6deg);
+	.mytheme {
+	 background: linear-gradient(90deg, #88cfe8 0%, #f7f5f5 100%);
 	}
-
-	45% {
-		transform: translateX(-15px) rotate(-3.6deg);
+	
+	.mytitle h2 {
+		color: blue !important;
+		
 	}
-
-	60% {
-		transform: translateX(9px) rotate(2.4deg);
+	
+	.mynews {
+		
+		font-weight: bold;
 	}
-
-	75% {
-		transform: translateX(-6px) rotate(-1.2deg);
+	.myformat {
+padding: 30px !important;
+		margin: 30px !important;
 	}
+	
+.col-12 {
+	padding-right: 0px;
 }
 
-
-@media (max-width: 755px) {
-    .carousel-indicators {
-        display: none;
-    }
+.navbar {
+	padding-right: 0px;
 }
+	
+	
